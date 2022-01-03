@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95ABA3FF2782441F00982243 /* TicketsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ABA3FE2782441F00982243 /* TicketsApp.swift */; };
+		95ABA4012782441F00982243 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ABA4002782441F00982243 /* ContentView.swift */; };
+		95ABA4032782442100982243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95ABA4022782442100982243 /* Assets.xcassets */; };
+		95ABA4062782442100982243 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95ABA4052782442100982243 /* Preview Assets.xcassets */; };
+		95ABA4082782442100982243 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ABA4072782442100982243 /* Persistence.swift */; };
+		95ABA4182782451500982243 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ABA4172782451500982243 /* Extensions.swift */; };
+		95ABA41A278245A500982243 /* TicketStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ABA419278245A500982243 /* TicketStatus.swift */; };
+		95ABA41D2782493300982243 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ABA41C2782493300982243 /* Ticket.swift */; };
+		95ABA42127824BA800982243 /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ABA42027824BA800982243 /* ListRow.swift */; };
+		95ABA42327824BC100982243 /* LinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ABA42227824BC100982243 /* LinkView.swift */; };
+		95ABA42527824BD300982243 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ABA42427824BD300982243 /* HeaderView.swift */; };
+		95ABA42727824BE900982243 /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ABA42627824BE900982243 /* TicketView.swift */; };
+		95ABA42927824BFE00982243 /* FlexibleSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ABA42827824BFE00982243 /* FlexibleSheet.swift */; };
+		95C80D822782BF3F005EE8C3 /* Tickets.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95C80D802782BF3F005EE8C3 /* Tickets.xcdatamodeld */; };
+		95C80D842782DB93005EE8C3 /* FilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C80D832782DB93005EE8C3 /* FilteredList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		95ABA3FB2782441F00982243 /* Tickets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tickets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95ABA3FE2782441F00982243 /* TicketsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsApp.swift; sourceTree = "<group>"; };
+		95ABA4002782441F00982243 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		95ABA4022782442100982243 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95ABA4052782442100982243 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		95ABA4072782442100982243 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		95ABA40C2782442100982243 /* Tickets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tickets.entitlements; sourceTree = "<group>"; };
+		95ABA4172782451500982243 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		95ABA419278245A500982243 /* TicketStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketStatus.swift; sourceTree = "<group>"; };
+		95ABA41C2782493300982243 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		95ABA42027824BA800982243 /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
+		95ABA42227824BC100982243 /* LinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkView.swift; sourceTree = "<group>"; };
+		95ABA42427824BD300982243 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		95ABA42627824BE900982243 /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
+		95ABA42827824BFE00982243 /* FlexibleSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleSheet.swift; sourceTree = "<group>"; };
+		95C80D812782BF3F005EE8C3 /* Tickets.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tickets.xcdatamodel; sourceTree = "<group>"; };
+		95C80D832782DB93005EE8C3 /* FilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95ABA3F82782441F00982243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95ABA3F22782441F00982243 = {
+			isa = PBXGroup;
+			children = (
+				95ABA3FD2782441F00982243 /* Tickets */,
+				95ABA3FC2782441F00982243 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95ABA3FC2782441F00982243 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95ABA3FB2782441F00982243 /* Tickets.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95ABA3FD2782441F00982243 /* Tickets */ = {
+			isa = PBXGroup;
+			children = (
+				95ABA4122782448600982243 /* App */,
+				95ABA41B2782492400982243 /* Models */,
+				95ABA4132782449500982243 /* Views */,
+				95ABA4142782449E00982243 /* CoreData */,
+				95ABA4162782450200982243 /* Utilities */,
+				95ABA40C2782442100982243 /* Tickets.entitlements */,
+				95ABA4022782442100982243 /* Assets.xcassets */,
+				95ABA4042782442100982243 /* Preview Content */,
+			);
+			path = Tickets;
+			sourceTree = "<group>";
+		};
+		95ABA4042782442100982243 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				95ABA4052782442100982243 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95ABA4122782448600982243 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				95ABA3FE2782441F00982243 /* TicketsApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		95ABA4132782449500982243 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				95ABA4002782441F00982243 /* ContentView.swift */,
+				95ABA42027824BA800982243 /* ListRow.swift */,
+				95ABA42227824BC100982243 /* LinkView.swift */,
+				95ABA42427824BD300982243 /* HeaderView.swift */,
+				95ABA42627824BE900982243 /* TicketView.swift */,
+				95ABA42827824BFE00982243 /* FlexibleSheet.swift */,
+				95C80D832782DB93005EE8C3 /* FilteredList.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		95ABA4142782449E00982243 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				95ABA4072782442100982243 /* Persistence.swift */,
+				95C80D802782BF3F005EE8C3 /* Tickets.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		95ABA4162782450200982243 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				95ABA4172782451500982243 /* Extensions.swift */,
+				95ABA419278245A500982243 /* TicketStatus.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		95ABA41B2782492400982243 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				95ABA41C2782493300982243 /* Ticket.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95ABA3FA2782441F00982243 /* Tickets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95ABA40F2782442100982243 /* Build configuration list for PBXNativeTarget "Tickets" */;
+			buildPhases = (
+				95ABA3F72782441F00982243 /* Sources */,
+				95ABA3F82782441F00982243 /* Frameworks */,
+				95ABA3F92782441F00982243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tickets;
+			productName = Tickets;
+			productReference = 95ABA3FB2782441F00982243 /* Tickets.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95ABA3F32782441F00982243 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					95ABA3FA2782441F00982243 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 95ABA3F62782441F00982243 /* Build configuration list for PBXProject "Tickets" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95ABA3F22782441F00982243;
+			productRefGroup = 95ABA3FC2782441F00982243 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95ABA3FA2782441F00982243 /* Tickets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95ABA3F92782441F00982243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95ABA4062782442100982243 /* Preview Assets.xcassets in Resources */,
+				95ABA4032782442100982243 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95ABA3F72782441F00982243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95ABA42727824BE900982243 /* TicketView.swift in Sources */,
+				95ABA4182782451500982243 /* Extensions.swift in Sources */,
+				95ABA4082782442100982243 /* Persistence.swift in Sources */,
+				95ABA4012782441F00982243 /* ContentView.swift in Sources */,
+				95C80D842782DB93005EE8C3 /* FilteredList.swift in Sources */,
+				95ABA3FF2782441F00982243 /* TicketsApp.swift in Sources */,
+				95ABA42127824BA800982243 /* ListRow.swift in Sources */,
+				95ABA42527824BD300982243 /* HeaderView.swift in Sources */,
+				95ABA41D2782493300982243 /* Ticket.swift in Sources */,
+				95ABA42327824BC100982243 /* LinkView.swift in Sources */,
+				95ABA42927824BFE00982243 /* FlexibleSheet.swift in Sources */,
+				95ABA41A278245A500982243 /* TicketStatus.swift in Sources */,
+				95C80D822782BF3F005EE8C3 /* Tickets.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		95ABA40D2782442100982243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95ABA40E2782442100982243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		95ABA4102782442100982243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Tickets/Tickets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tickets/Preview Content\"";
+				DEVELOPMENT_TEAM = 5PWYZ4J78Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tokayon.Tickets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		95ABA4112782442100982243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Tickets/Tickets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tickets/Preview Content\"";
+				DEVELOPMENT_TEAM = 5PWYZ4J78Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tokayon.Tickets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95ABA3F62782441F00982243 /* Build configuration list for PBXProject "Tickets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95ABA40D2782442100982243 /* Debug */,
+				95ABA40E2782442100982243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95ABA40F2782442100982243 /* Build configuration list for PBXNativeTarget "Tickets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95ABA4102782442100982243 /* Debug */,
+				95ABA4112782442100982243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		95C80D802782BF3F005EE8C3 /* Tickets.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				95C80D812782BF3F005EE8C3 /* Tickets.xcdatamodel */,
+			);
+			currentVersion = 95C80D812782BF3F005EE8C3 /* Tickets.xcdatamodel */;
+			path = Tickets.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 95ABA3F32782441F00982243 /* Project object */;
+}
