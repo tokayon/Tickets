@@ -16,7 +16,7 @@ struct FilteredList: View {
         if filter.isEmpty {
             _fetchRequest = FetchRequest<TicketEntity>(sortDescriptors: [NSSortDescriptor(keyPath: \TicketEntity.timestamp, ascending: false)])
         } else {
-            _fetchRequest = FetchRequest<TicketEntity>(sortDescriptors: [NSSortDescriptor(keyPath: \TicketEntity.timestamp, ascending: false)], predicate: NSPredicate(format: "name contains[c] %@", filter))
+            _fetchRequest = FetchRequest<TicketEntity>(sortDescriptors: [NSSortDescriptor(keyPath: \TicketEntity.timestamp, ascending: false)], predicate: NSPredicate(format: "name contains[c] %@ or jiraLink contains[c] %@ or prLink contains[c] %@", filter, filter, filter))
         }
         self.completion = completion
     }
