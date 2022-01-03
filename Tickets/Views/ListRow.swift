@@ -38,13 +38,13 @@ struct ListRow: View {
                 .frame(width: 2)
                 .background(Color.gray)
 
-            LinkView(link: ticket.prLink, width: 100, color: .blue)
+            LinkView(link: ticket.prLink, width: 80, color: .blue)
                 .font(.system(.title3))
             Divider()
                 .frame(width: 2)
                 .background(Color.gray)
             
-            LinkView(link: ticket.jiraLink, width: 100, color: .orange)
+            LinkView(link: ticket.jiraLink, width: 110, color: .orange)
                 .font(.system(.title3))
             Divider()
                 .frame(width: 2)
